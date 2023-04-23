@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:mis_lab03/model/Exam.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 class NewExam extends StatefulWidget {
-  final Function(String, String) addNewExam;
+  final Function(String, DateTime) addNewExam;
   const NewExam({Key? key, required this.addNewExam}) : super(key: key);
 
   @override
@@ -17,7 +19,7 @@ class _NewExamState extends State<NewExam> {
         dateAndTimeController.text.isNotEmpty) {
       widget.addNewExam(
         courseNameController.text,
-        dateAndTimeController.text,
+        DateTime.parse(dateAndTimeController.text),
       );
       Navigator.of(context).pop();
     }

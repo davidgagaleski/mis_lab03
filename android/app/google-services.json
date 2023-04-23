@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "923259776163",
+    "project_id": "david-firebase-a3172",
+    "storage_bucket": "david-firebase-a3172.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923259776163:android:1d68ddac4cf3815a406316",
+        "android_client_info": {
+          "package_name": "com.example.mis_lab03"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923259776163-8haqsdvjed8edojvrd465bb8cg6u4dnv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5VUkuSOkSFwfTe3UJ-ag9cpzITzJFj3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923259776163-8haqsdvjed8edojvrd465bb8cg6u4dnv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

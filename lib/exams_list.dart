@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mis_lab03/model/Exam.dart';
+import 'package:intl/intl.dart';
 
 class ExamsList extends StatelessWidget {
   final List<Exam> exams;
@@ -24,7 +25,8 @@ class ExamsList extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            subtitle: Text(exams[index].examDateTime),
+            subtitle: Text(
+                "${DateFormat("dd/MM/yyyy h:mma").format(exams[index].examDateTime)}"),
             trailing: IconButton(
               icon: const Icon(Icons.delete),
               color: Colors.red,
