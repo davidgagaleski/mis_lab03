@@ -30,6 +30,12 @@ dependencies:
   flutter:
     sdk: flutter
   syncfusion_flutter_calendar: ^20.4.38
+  google_maps_flutter: ^2.2.3
+  geolocator: ^9.0.2
+  location: ^4.4.0
+  permission: ^0.1.7
+  permission_handler: ^10.2.0
+  flutter_polyline_points: ^1.0.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
